@@ -1,0 +1,12 @@
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\bin\Release\MirrorConfigInCode.exe.config
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\bin\Release\MirrorConfigInCode.exe
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\bin\Release\MirrorConfigInCode.pdb
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\obj\Release\MirrorConfigInCode.csprojResolveAssemblyReference.cache
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\obj\Release\MirrorConfigInCode.exe
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\obj\Release\MirrorConfigInCode.pdb
+C:\git\MirrorConfigInCode\MirrorConfigInCode\bin\Release\MirrorConfigInCode.exe.config
+C:\git\MirrorConfigInCode\MirrorConfigInCode\obj\Release\MirrorConfigInCode.exe
+C:\git\MirrorConfigInCode\MirrorConfigInCode\obj\Release\MirrorConfigInCode.pdb
+C:\git\MirrorConfigInCode\MirrorConfigInCode\bin\Release\MirrorConfigInCode.exe
+C:\git\MirrorConfigInCode\MirrorConfigInCode\bin\Release\MirrorConfigInCode.pdb
+C:\git\MirrorConfigInCode\MirrorConfigInCode\obj\Release\MirrorConfigInCode.csprojResolveAssemblyReference.cache

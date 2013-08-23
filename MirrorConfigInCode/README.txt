@@ -1,10 +1,4 @@
-MirrorConfigInCode
-==================
-
-Kleines Beispielprojekt in dem gezeigt wird wie man eigene Config Sections im der .config erstellen kann und sie im .Net auslesen/benutzen kann
-
-
-------------------------------------------------------------------------------------------------------------------------
+Ôªø------------------------------------------------------------------------------------------------------------------------
 ->PROBLEM: Mehrere Settingkeys aus einer Config auslesen ist nervig weil man jeden Key den man braucht direkt 
 per Namen im Code ansprechen muss.  
 
@@ -22,8 +16,8 @@ String target2 = ConfigurationSettings.AppSettings["target2"];
 
 ------------------------------------------------------------------------------------------------------------------------
 ->BESSER:
-Leichter zu pflegen w‰re eine Ansatz mit dem es mˆglich w‰re Keys zusammenh‰ngend in der config anzugeben. Code seitig w¸rde
-man dann eine Enumeration bekommen. Jedes der ConfigELemente kann Attribute haben die KlassenSeitig interpretiert werden kˆnnen.
+Leichter zu pflegen w√§re eine Ansatz mit dem es m√∂glich w√§re Keys zusammenh√§ngend in der config anzugeben. Code seitig w√ºrde
+man dann eine Enumeration bekommen. Jedes der ConfigELemente kann Attribute haben die KlassenSeitig interpretiert werden k√∂nnen.
 
 Bsp.:
 
@@ -48,7 +42,7 @@ foreach (var t in settings.DeployTargets)
 
 ------------------------------------------------------------------------------------------------------------------------
 ->AUFBAU:
-Zun‰chst brauche wir eine Klasse die unsere Targets abbilden kann.  
+Zun√§chst brauche wir eine Klasse die unsere Targets abbilden kann.  
 Diese Klasse interpretiert die Attribute der einzelnen Positionen.
 
 // Mapped in unserem Bsp. ein Target
@@ -150,7 +144,7 @@ Eine kleine Hilfsklasse:
     }
 	
 	
-Und zu guter letzt eine Klasse die das alles miteinander verkn¸pft und unseren direkten Draht zu den Settings darstellt.
+Und zu guter letzt eine Klasse die das alles miteinander verkn√ºpft und unseren direkten Draht zu den Settings darstellt.
 	public class ConfigSettings
     {
         public ConnectionSection TargetAppearanceConfiguration
@@ -196,7 +190,7 @@ Fehler: Unbehandelte Ausnahme: System.Configuration.ConfigurationErrorsException
         ConfigurationErrorsException: Unbekannter Konfigurationsabschnitt "deployTargetS
         ection". 
 
-        --> Mˆglicherweise hast du vergessen die ConfigSection in der Config Dateu bekannt zu machen. Ja das ist nˆtig! ;)
+        --> M√∂glicherweise hast du vergessen die ConfigSection in der Config Dateu bekannt zu machen. Ja das ist n√∂tig! ;)
             Regelt vermutlich den Zugriff aus den Namespaces herraus.
   
               <configSections>
@@ -207,7 +201,7 @@ Fehler: Unbehandelte Ausnahme: System.Configuration.ConfigurationErrorsException
 Fehler:Unbehandelte Ausnahme: System.Configuration.ConfigurationErrorsException: Das Ko
         nfigurationssystem konnte nicht initialisiert werden. ---> System.Configuration.
         ConfigurationErrorsException: Pro Konfigurationsdatei ist nur ein <configSection
-        s>-Element zul‰ssig und muss, sofern vorhanden, das erste untergeordnete Element
+        s>-Element zul√§ssig und muss, sofern vorhanden, das erste untergeordnete Element
         des Stamm-<configuration>-Elements sein. 
 
         -->  Die Exception Message sagt es schon. Es darf nur eine <configSection></configSection> geben 

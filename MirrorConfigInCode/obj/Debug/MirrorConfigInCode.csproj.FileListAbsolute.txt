@@ -1,0 +1,6 @@
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\bin\Debug\MirrorConfigInCode.exe.config
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\bin\Debug\MirrorConfigInCode.exe
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\bin\Debug\MirrorConfigInCode.pdb
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\obj\Debug\MirrorConfigInCode.csprojResolveAssemblyReference.cache
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\obj\Debug\MirrorConfigInCode.exe
+C:\Users\stephan\Documents\Visual Studio 2012\Projects\MirrorConfigInCode\MirrorConfigInCode\obj\Debug\MirrorConfigInCode.pdb
