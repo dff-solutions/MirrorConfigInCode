@@ -11,10 +11,12 @@ namespace MirrorConfigInCode
         static void Main(string[] args)
         {
             var config = new ConfigSettings();
+            Console.WriteLine(System.Environment.NewLine);
             foreach (var target in config.DeployTargets)
             {
                 Console.WriteLine(string.Format("Target Name: {0},\t Is Active: {1},\t ServerName: {2}", target.name, target.isactive, target.servername));
             }
+            Console.WriteLine(System.Environment.NewLine);
             Console.WriteLine("Press Escape to Exit");
             if (Console.ReadKey() != null)
             {
